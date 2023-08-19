@@ -36,7 +36,6 @@ const phrases = [
   ];
   
     
-  
   // Anonymisez chaque phrase
   phrases.forEach((phrase) => {
     console.log(`Avant anonymisation : ${phrase}`);
