@@ -23,12 +23,12 @@ const { anonymize } = require('./anonymizer_obfuscated.js');
 
 
 ## Appel de la fonction
-Appelez la fonction en passant le texte que vous souhaitez anonymiser et une liste des éléments à anonymiser :
+Appelez la fonction en passant le texte que vous souhaitez anonymiser et une liste des éléments à anonymiser en arguments :
 
 ```javascript
-const texteOriginal = "Votre texte ici contenant des informations sensibles comme un nom, un email, etc.";
-const elementsAAnonymiser = ['NAME', 'EMAIL', 'LOCALISATION'];
-const texteAnonymise = anonymize(texteOriginal, elementsAAnonymiser);
+const texteOriginal = "La carte de Maria est 4567-8901-2345-6789."; #Un texte qu'on souhaite anonymiser
+const elementsAAnonymiser = ['NAME', 'EMAIL', 'LOCALISATION']; #les éléments qu'on souhaite anonymiser
+const texteAnonymise = anonymize(texteOriginal, elementsAAnonymiser); #le texte anonymisé
 ```
 
 ## Eléments pouvant être anonymisés
