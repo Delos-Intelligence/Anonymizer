@@ -1,0 +1,16 @@
+{
+  "name": "anonymizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "anonymizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compromise": "^14.9.0",
+    "fast-levenshtein": "^3.0.0"
+  }
+}
