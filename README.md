@@ -1,6 +1,6 @@
 # Anonymizer
 
-La fonction `anonymize` fournie permet de masquer ou anonymiser certaines informations sensibles dans un texte donné.
+La fonction `anonymize` est située dans le fichier `anonymizer_obfuscated.js` et permet de masquer ou anonymiser certaines informations sensibles dans un texte donné.
 
 ## Prérequis
 
