@@ -14,11 +14,13 @@ npm install compromise
 
 ### Importer la fonction
 
-Importez la fonction `anonymize` depuis le fichier où elle est définie :
+
+Téléchargez le fichier `anonymizer_obfuscated.js`. Puis importez la fonction `anonymize` depuis le fichier où elle est définie :
 
 ```javascript
 const { anonymize } = require('./anonymizer_obfuscated.js');
 ```
+
 
 ## Appel de la fonction
 Appelez la fonction en passant le texte que vous souhaitez anonymiser et une liste des éléments à anonymiser :
