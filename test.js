@@ -1,4 +1,5 @@
 const { anonymize } = require('./anonymizer_obfuscated.js');
+//const { anonymize } = require('./anonymizer.js');
 
 const phrases = [
     "Bonjour, je m'appelle John Doe.",
