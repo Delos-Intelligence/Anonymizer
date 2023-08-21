@@ -12,5 +12,6 @@
   "dependencies": {
     "compromise": "^14.9.0",
     "fast-levenshtein": "^3.0.0"
-  }
+  }, 
+  "type": "module"
 }

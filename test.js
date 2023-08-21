@@ -1,4 +1,4 @@
-const { anonymize } = require('./anonymizer_obfuscated.js');
+import { anonymize } from './anonymizer_obfuscated.js';
 //const { anonymize } = require('./anonymizer.js');
 
 const phrases = [
