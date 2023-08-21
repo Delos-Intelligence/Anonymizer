@@ -1,6 +1,6 @@
-const nlp = require('compromise');
+import nlp from 'compromise';
 
-function anonymize(text, elementsToAnonymize = []) {
+export function anonymize(text, elementsToAnonymize = []) {
     let doc = nlp(text);
 
     if (elementsToAnonymize.includes('NAME')) {
